@@ -1,0 +1,72 @@
+body{background-image: url(img/%D1%84%D0%BE%D0%BD.jpg)}
+.header {
+    background: #1D262D;
+    border: 1px solid #B5B7BA;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    text-align: center;
+    color: #E65100
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content .left {
+    padding-top: 20px
+}
+
+.content .left form {}
+
+.content .left input {}
+
+.content p {}
+
+.content p input {}
+
+.content .right {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 200px;
+    height: 250px;
+    border: 1px solid #B5B7BA;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center
+}
+
+.content .right form {}
+
+.content .right input {
+    width: 200px;
+    height: 250px;
+
+}
+
+.hide {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+}
+
+.content #upload {}
+
+.content #upload.content label {
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.content img {
+    width: 200px;
+    height: 250px;
+}
